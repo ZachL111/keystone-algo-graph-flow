@@ -1,0 +1,97 @@
+id,parent,focus,signal,slack,drag,confidence,score,lane,kind,invariant,mutation
+m001,g001,input width,113,47,17,84,319,ship,baseline,monotonic-signal,raise-signal
+m002,g002,search depth,74,56,13,104,299,ship,edge,drag-penalty,drop-slack
+m003,g003,boundary pressure,106,10,20,92,224,ship,recovery,confidence-floor,raise-drag
+m004,g004,complexity,82,19,35,61,88,hold,negative,lane-boundary,lower-confidence
+m005,g005,input width,126,26,27,26,195,ship,baseline,monotonic-signal,raise-signal
+m006,g006,search depth,50,21,45,50,-33,hold,edge,drag-penalty,drop-slack
+m007,g007,boundary pressure,64,37,21,23,120,watch,recovery,confidence-floor,raise-drag
+m008,g008,complexity,31,77,42,87,93,hold,negative,lane-boundary,lower-confidence
+m009,g009,input width,115,65,15,100,385,ship,baseline,monotonic-signal,raise-signal
+m010,g010,search depth,59,50,24,105,203,ship,edge,drag-penalty,drop-slack
+m011,g011,boundary pressure,39,27,37,26,-27,hold,recovery,confidence-floor,raise-drag
+m012,g012,complexity,32,47,14,64,152,watch,negative,lane-boundary,lower-confidence
+m013,g013,input width,85,60,26,21,181,watch,baseline,monotonic-signal,raise-signal
+m014,g014,search depth,102,23,36,40,110,watch,edge,drag-penalty,drop-slack
+m015,g015,boundary pressure,74,23,49,54,3,hold,recovery,confidence-floor,raise-drag
+m016,g016,complexity,64,20,26,53,91,hold,negative,lane-boundary,lower-confidence
+m017,g017,input width,115,56,19,76,323,ship,baseline,monotonic-signal,raise-signal
+m018,g018,search depth,43,31,38,86,44,hold,edge,drag-penalty,drop-slack
+m019,g019,boundary pressure,59,37,35,52,69,hold,recovery,confidence-floor,raise-drag
+m020,g020,complexity,70,37,25,70,159,watch,negative,lane-boundary,lower-confidence
+m021,g021,input width,88,75,4,103,409,ship,baseline,monotonic-signal,raise-signal
+m022,g022,search depth,87,15,37,91,110,watch,edge,drag-penalty,drop-slack
+m023,g023,boundary pressure,51,74,20,73,223,ship,recovery,confidence-floor,raise-drag
+m024,g024,complexity,36,66,44,12,-4,hold,negative,lane-boundary,lower-confidence
+m025,g025,input width,85,72,40,49,163,watch,baseline,monotonic-signal,raise-signal
+m026,g026,search depth,56,59,40,22,52,hold,edge,drag-penalty,drop-slack
+m027,g027,boundary pressure,49,36,27,99,134,watch,recovery,confidence-floor,raise-drag
+m028,g028,complexity,49,22,12,86,168,watch,negative,lane-boundary,lower-confidence
+m029,g029,input width,62,17,30,104,112,watch,baseline,monotonic-signal,raise-signal
+m030,g030,search depth,58,41,41,25,18,hold,edge,drag-penalty,drop-slack
+m031,g031,boundary pressure,108,72,34,76,266,ship,recovery,confidence-floor,raise-drag
+m032,g032,complexity,57,15,42,7,-59,hold,negative,lane-boundary,lower-confidence
+m033,g033,input width,124,24,9,39,290,ship,baseline,monotonic-signal,raise-signal
+m034,g034,search depth,59,20,15,53,136,watch,edge,drag-penalty,drop-slack
+m035,g035,boundary pressure,35,37,48,65,-31,hold,recovery,confidence-floor,raise-drag
+m036,g036,complexity,70,42,11,62,231,ship,negative,lane-boundary,lower-confidence
+m037,g037,input width,100,12,21,85,204,ship,baseline,monotonic-signal,raise-signal
+m038,g038,search depth,105,59,27,51,244,ship,edge,drag-penalty,drop-slack
+m039,g039,boundary pressure,72,66,18,82,268,ship,recovery,confidence-floor,raise-drag
+m040,g040,complexity,59,32,4,89,251,ship,negative,lane-boundary,lower-confidence
+m041,g041,input width,109,52,23,90,297,ship,baseline,monotonic-signal,raise-signal
+m042,g042,search depth,80,54,13,72,275,ship,edge,drag-penalty,drop-slack
+m043,g043,boundary pressure,73,39,17,24,163,watch,recovery,confidence-floor,raise-drag
+m044,g044,complexity,117,28,31,35,170,watch,negative,lane-boundary,lower-confidence
+m045,g045,input width,64,25,22,21,89,hold,baseline,monotonic-signal,raise-signal
+m046,g046,search depth,115,50,40,98,228,ship,edge,drag-penalty,drop-slack
+m047,g047,boundary pressure,105,47,36,98,222,ship,recovery,confidence-floor,raise-drag
+m048,g048,complexity,59,42,25,90,167,watch,negative,lane-boundary,lower-confidence
+m049,g049,input width,93,42,25,24,169,watch,baseline,monotonic-signal,raise-signal
+m050,g050,search depth,100,0,5,75,250,ship,edge,drag-penalty,drop-slack
+m051,g051,boundary pressure,111,31,46,105,159,watch,recovery,confidence-floor,raise-drag
+m052,g052,complexity,32,9,15,25,32,hold,negative,lane-boundary,lower-confidence
+m053,g053,input width,49,71,26,52,162,watch,baseline,monotonic-signal,raise-signal
+m054,g054,search depth,92,66,12,64,320,ship,edge,drag-penalty,drop-slack
+m055,g055,boundary pressure,77,75,34,74,208,ship,recovery,confidence-floor,raise-drag
+m056,g056,complexity,117,41,36,71,207,ship,negative,lane-boundary,lower-confidence
+m057,g057,input width,106,27,42,50,106,watch,baseline,monotonic-signal,raise-signal
+m058,g058,search depth,90,11,26,81,153,watch,edge,drag-penalty,drop-slack
+m059,g059,boundary pressure,90,57,45,101,170,watch,recovery,confidence-floor,raise-drag
+m060,g060,complexity,94,77,6,76,388,ship,negative,lane-boundary,lower-confidence
+m061,g061,input width,108,20,12,71,267,ship,baseline,monotonic-signal,raise-signal
+m062,g062,search depth,61,18,38,23,-9,hold,edge,drag-penalty,drop-slack
+m063,g063,boundary pressure,98,36,38,47,125,watch,recovery,confidence-floor,raise-drag
+m064,g064,complexity,68,42,8,7,187,watch,negative,lane-boundary,lower-confidence
+m065,g065,input width,109,47,40,97,209,ship,baseline,monotonic-signal,raise-signal
+m066,g066,search depth,76,6,37,97,76,hold,edge,drag-penalty,drop-slack
+m067,g067,boundary pressure,111,75,23,102,359,ship,recovery,confidence-floor,raise-drag
+m068,g068,complexity,44,71,7,10,205,ship,negative,lane-boundary,lower-confidence
+m069,g069,input width,67,37,25,74,157,watch,baseline,monotonic-signal,raise-signal
+m070,g070,search depth,113,46,14,104,352,ship,edge,drag-penalty,drop-slack
+m071,g071,boundary pressure,100,70,17,37,292,ship,recovery,confidence-floor,raise-drag
+m072,g072,complexity,53,44,10,38,182,watch,negative,lane-boundary,lower-confidence
+m073,g073,input width,42,33,32,63,53,hold,baseline,monotonic-signal,raise-signal
+m074,g074,search depth,114,19,24,73,219,ship,edge,drag-penalty,drop-slack
+m075,g075,boundary pressure,70,66,49,83,110,watch,recovery,confidence-floor,raise-drag
+m076,g076,complexity,96,52,11,36,277,ship,negative,lane-boundary,lower-confidence
+m077,g077,input width,77,47,39,80,133,watch,baseline,monotonic-signal,raise-signal
+m078,g078,search depth,58,36,12,100,228,ship,edge,drag-penalty,drop-slack
+m079,g079,boundary pressure,100,15,28,88,178,watch,recovery,confidence-floor,raise-drag
+m080,g080,complexity,37,36,27,57,68,hold,negative,lane-boundary,lower-confidence
+m081,g081,input width,62,14,11,22,119,watch,baseline,monotonic-signal,raise-signal
+m082,g082,search depth,64,65,23,46,189,watch,edge,drag-penalty,drop-slack
+m083,g083,boundary pressure,73,12,40,105,75,hold,recovery,confidence-floor,raise-drag
+m084,g084,complexity,81,10,39,83,70,hold,negative,lane-boundary,lower-confidence
+m085,g085,input width,54,46,23,96,181,watch,baseline,monotonic-signal,raise-signal
+m086,g086,search depth,30,21,16,101,123,watch,edge,drag-penalty,drop-slack
+m087,g087,boundary pressure,70,27,42,22,6,hold,recovery,confidence-floor,raise-drag
+m088,g088,complexity,50,62,25,60,159,watch,negative,lane-boundary,lower-confidence
+m089,g089,input width,52,12,22,103,121,watch,baseline,monotonic-signal,raise-signal
+m090,g090,search depth,43,14,43,36,-65,hold,edge,drag-penalty,drop-slack
+m091,g091,boundary pressure,47,34,41,50,7,hold,recovery,confidence-floor,raise-drag
+m092,g092,complexity,52,41,10,49,185,watch,negative,lane-boundary,lower-confidence
+m093,g093,input width,111,47,41,72,183,watch,baseline,monotonic-signal,raise-signal
+m094,g094,search depth,51,41,37,82,81,hold,edge,drag-penalty,drop-slack
+m095,g095,boundary pressure,109,22,44,48,90,hold,recovery,confidence-floor,raise-drag
+m096,g096,complexity,53,10,17,66,107,watch,negative,lane-boundary,lower-confidence

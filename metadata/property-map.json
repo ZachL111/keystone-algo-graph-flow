@@ -1,0 +1,28 @@
+{
+  "repo": "keystone-algo-graph-flow",
+  "language": "OCaml",
+  "category": "Algorithms",
+  "goal": "Package an OCaml local lab for graph analysis with fixture event logs, golden state snapshots, and documented operating limits.",
+  "weights": {
+    "signal": 2,
+    "slack": 2,
+    "confidence": 1,
+    "drag": 5
+  },
+  "thresholds": {
+    "ship": 194,
+    "watch": 100
+  },
+  "properties": [
+    "raising signal cannot reduce score",
+    "raising drag cannot improve score",
+    "lane labels must match configured thresholds",
+    "golden fixture ids must remain unique"
+  ],
+  "fixture_files": [
+    "fixtures/golden/scoreboard.csv",
+    "fixtures/golden/lane-matrix.csv",
+    "fixtures/fuzz/mutations.csv",
+    "fixtures/fuzz/boundary-cases.jsonl"
+  ]
+}

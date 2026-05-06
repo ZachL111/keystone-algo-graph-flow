@@ -1,0 +1,17 @@
+{
+  "repo": "keystone-algo-graph-flow",
+  "thresholds": {
+    "signal": 2,
+    "slack": 2,
+    "confidence": 1,
+    "drag": 5,
+    "ship": 194,
+    "watch": 100
+  },
+  "terms": [
+    "input width",
+    "search depth",
+    "boundary pressure",
+    "complexity"
+  ]
+}
