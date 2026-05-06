@@ -1,0 +1,73 @@
+{
+  "repo": "keystone-algo-graph-flow",
+  "language": "OCaml",
+  "category": "Algorithms",
+  "goal": "Package an OCaml local lab for graph analysis with fixture event logs, golden state snapshots, and documented operating limits.",
+  "review_model": {
+    "terms": [
+      "input width",
+      "search depth",
+      "boundary pressure",
+      "complexity"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "input width",
+      "signal": 51,
+      "slack": 46,
+      "drag": 23,
+      "confidence": 55,
+      "score": 134,
+      "lane": "watch"
+    },
+    {
+      "name": "stress",
+      "focus": "search depth",
+      "signal": 70,
+      "slack": 30,
+      "drag": 29,
+      "confidence": 72,
+      "score": 155,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "boundary pressure",
+      "signal": 80,
+      "slack": 53,
+      "drag": 14,
+      "confidence": 51,
+      "score": 222,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "complexity",
+      "signal": 58,
+      "slack": 24,
+      "drag": 22,
+      "confidence": 59,
+      "score": 133,
+      "lane": "watch"
+    },
+    {
+      "name": "stale",
+      "focus": "input width",
+      "signal": 83,
+      "slack": 35,
+      "drag": 10,
+      "confidence": 73,
+      "score": 244,
+      "lane": "ship"
+    }
+  ]
+}
